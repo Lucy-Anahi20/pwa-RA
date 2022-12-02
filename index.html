@@ -48,7 +48,7 @@
             </button>
             <a href="index.html" tabindex="0" class="navbar-brand mr-0"> News</a>
             <div class="navbar-collapse collapse justify-content-between" id="collapsingNavbar2">
-                
+
                 <ul class="navbar-nav  mx-auto">
                     <!-- Search in right of nav -->
                     <li class="nav-item ">
@@ -71,6 +71,43 @@
             <!-- /navbar-collapse -->
         </nav>
         <!-- /nav -->
+
+
+        <!-- incio de ventana modal -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            publicar noticia
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">publicar noticia</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Publicar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <dialog id="modal">
+            <h2>Este es el título de mi ventana modal</h2>
+            <p>Este es un texto de ejemplo dentro de una ventana modal</p>
+            <button type="submit">enviar</button>
+            <button onclick="window.modal.close();">Cerrar</button>
+        </dialog> -->
     </header>
     <!-- ==============================================
      Posts Section
